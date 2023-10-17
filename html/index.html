@@ -9,9 +9,12 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="icon" href="../images/icons8-питон-96.png">
     </head>
 <body>
+
     <!----Navbar---->
+
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#"><img src="../images/python-logo-inkscape.svg"></a>
@@ -24,13 +27,16 @@
                   <a class="nav-link" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">SERVICES</a>
+                  <a class="nav-link" href="#services">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">LEARN</a>
+                  <a class="nav-link" href="learn.html">LEARN</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#staff">STAFF</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -40,18 +46,17 @@
 
     <!-------------------Banner---------------------------->
 
-
     <section id="banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="promo-title">Learn Pyhon Online:Simple,Fun,Effective</p>
+                    <p class="promo-title">Learn Python Online:Simple,Fun,Effective</p>
                     <p>Discover Python a powerful programming language loved by big tech companies,startups,
                         and data experts worldwide.In this course you will learn basic terms of Python and
                          get future direction.
                     </p>
                 </div>
-                <div class="col-md-6 tect-center">
+                <div class="col-md-6 text-center">
                     <img src="../images/home2.png" class = "img-fluid">
                 </div>
             </div>
@@ -59,10 +64,8 @@
         <img src="../images/wave1.png" class="bottom-img">
     </section>
 
-
-
-
     <!----Services---->
+
     <section id="services">
         <div class="conteiner text-center">
             <h1 class="title">WHAT WE CAN OFFER ?</h1>
@@ -87,32 +90,28 @@
                          of the level of complexity at the moment.</p>
                 </div>
             </div>
-            <button type="button" class="btn btn-primary">All services</button>
+            
+            <a class="btn btn-primary" href="learn.html" role="button">Learn</a>
         </div>
     </section>
 
-    <!-----------------------------Learn-------------------------->
-    <section id="learn">
-        <div class="container">
-            <div class="row">   
-                <div class="col-md-6">
-                    <p class="word">LEARN</p>
-                    <div class="video">
-                        <iframe width="250" height="180" src="https://www.youtube.com/embed/34Rp6KVGIEM?si=lq18jcvj4-tXVNrp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe width="250" height="180" src="https://www.youtube.com/embed/CfqX2_xY8VQ?si=Mnxy5MWwsxdiQ-tC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe width="250" height="180" src="https://www.youtube.com/embed/ML5tP8m6SHw?si=NriC2D3_3JrcTFVF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                </div>
+   <!----Staff---->
 
+   <section id="staff">
+        <div class="container">
+            <h1 class="title text-center">OUR STAFF</h1>
+            <div class="row">
+                <div class="col-md-5 staff">
+                    <img src="../images/staff_img.webp" alt="staff">
+                    <p><b>Gosha Dudar</b><br>Teacher at the School of programming, Senior Full Stack  developer</p>
+                </div>
+                <div class="col-md-5 staff">
+                    <img src="../images/code_blogIMG.jfif" alt="staff">
+                    <p><b>Vadim Shvanov</b><br>Software engineer with 7+ years experience in design and development</p>
                 </div>
             </div>
         </div>
-    </section>
-    <button id="view-all-button">View All</button>
+   </section>
 
    <!----Footer---->
     <section id="footer">
@@ -120,7 +119,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 footer-box">
-                    <img src="../images/python-logo-inkscape.svg">
+                    <img src="../images/python-logo-inkscape.svg" class="img-fluid">
                     <p>A website with huge opportunities for learning Python programming language.</p>
                 </div>
 
@@ -138,7 +137,7 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Wevsite for Assignment2</p>
+            <p class="copyright">Website for Assignment2</p>
         </div>
     </section>
 
